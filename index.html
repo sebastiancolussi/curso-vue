@@ -8,6 +8,7 @@
         {{message}}
         <input v-model="message"> <!--el input toma el valor del message que esta abajo en el script  -->
        <button v-on:click='seen = !seen'>Open/Close</button>
+       <span v-bind:title='message'></span>
         <span v-if='now you see me'></span>
     </div>
 
